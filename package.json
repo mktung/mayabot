@@ -1,0 +1,32 @@
+{
+  "name": "mayabot",
+  "version": "1.0.0",
+  "description": "Discord bot for collaborative storytelling",
+  "main": "",
+  "dependencies": {
+    "@types/node": "^13.9.2",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.3",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc app.ts",
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktung/mayabot.git"
+  },
+  "author": "Maya Tung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mktung/mayabot/issues"
+  },
+  "homepage": "https://github.com/mktung/mayabot#readme"
+}
